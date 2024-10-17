@@ -1,0 +1,12 @@
+:root {
+  --background-color: hsl(30, 54%, 90%);
+  --sub-title-color: hsl(14, 45%, 36%);
+  --section-color: hsl(0, 0%, 100%);
+  --lists-items-color-bold: hsl(30, 10%, 34%);
+  --paragraph-color: hsl(30, 10%, 34%);
+  --preparation-background-color: hsl(330, 100%, 98%);
+  --recipe-title-color: hsl(24, 5%, 18%);
+  --undefined-color: hsl(30, 18%, 87%);
+
+  --paragraph-font-size: 1.6rem;
+}

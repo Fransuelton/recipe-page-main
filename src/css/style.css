@@ -1,0 +1,124 @@
+.main {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-card {
+  background-color: var(--section-color);
+  width: 60rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.1);
+  margin: 3rem;
+}
+
+.recipe-card .sub-title {
+  color: var(--sub-title-color);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.recipe-card .omelette-image {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.recipe-card .recipe-title {
+  color: var(--recipe-title-color);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  margin: 2rem 0;
+}
+
+.recipe-card .recipe-description {
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  margin: 2rem 0;
+}
+
+.recipe-card .preparation-time {
+  background-color: var(--preparation-background-color);
+  padding: 3rem;
+  border-radius: 1rem;
+  font-family: "Outfit", sans-serif;
+  color: var(--paragraph-color);
+}
+
+.recipe-card .preparation-time h3 {
+  color: var(--sub-title-color);
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.recipe-card .preparation-time ul > li {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+.recipe-card .preparation-time ul > li > strong {
+  color: var(--lists-items-color-bold);
+  font-weight: 700;
+}
+
+.recipe-card .ingredients-list {
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  margin: 2rem 0;
+  padding-left: 2rem;
+}
+
+.recipe-card .ingredients-list > li {
+  margin: 1rem 0;
+}
+
+.recipe-card .instructions-list {
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  margin: 2rem 0;
+  padding-left: 2rem;
+}
+
+.recipe-card .instructions-list > li {
+  margin: 1rem 0;
+}
+
+.recipe-card .description {
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  margin: 2rem 0;
+}
+
+.recipe-card .nutrition-table {
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  margin: 2rem 0;
+  width: 50%;
+}
+
+.recipe-card .nutrition-table tbody tr {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  border-bottom: 1px solid var(--sub-title-color);
+}
+
+.recipe-card .nutrition-table .nutrition-info-data {
+  color: var(--sub-title-color);
+}
